@@ -10,6 +10,10 @@ import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
+import LevvyImage from "../public/images/levvy.png";
+import TestfuseImage from "../public/images/testfuse.png";
+import PixelImage from "../public/images/pixelsports.png";
+import HotPlaceImage from "../public/images/hotplace.png";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -39,6 +43,32 @@ export default function Home() {
       behavior: "smooth",
     });
   };
+
+  const updatedData = data.projects.map((item) => {
+    if (item.title === "Levvy") {
+      return {
+        ...item,
+        imageSrc: LevvyImage.src,
+      };
+    } else if (item.title === "Testfuse") {
+      return {
+        ...item,
+        imageSrc: TestfuseImage.src,
+      };
+    } else if (item.title === "Pixel Sports") {
+      return {
+        ...item,
+        imageSrc: PixelImage.src,
+      };
+    } else if (item.title === "Hop Place") {
+      return {
+        ...item,
+        imageSrc: HotPlaceImage.src,
+      };
+    }
+
+    return item;
+  });
 
   useIsomorphicLayoutEffect(() => {
     stagger(
@@ -97,13 +127,13 @@ export default function Home() {
           <h1 className="text-2xl text-bold">Work.</h1>
 
           <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
-            {data.projects.map((project) => (
+            {updatedData.map((project) => (
               <WorkCard
                 key={project.id}
                 img={project.imageSrc}
                 name={project.title}
                 description={project.description}
-                onClick={() => window.open(project.url)}
+                // onClick={() => window.open(project.url)}
               />
             ))}
           </div>
