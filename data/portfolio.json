@@ -1,9 +1,9 @@
 {
-  "name": "Chetan",
-  "headerTaglineOne": "Hello 👋",
-  "headerTaglineTwo": "I'm Chetan Verma - curious",
-  "headerTaglineThree": "designer and devloper",
-  "headerTaglineFour": " based in New Delhi, India.",
+  "name": "Syntactech",
+  "headerTaglineOne": "Welcome 👋",
+  "headerTaglineTwo": "We are Syntactech - innovative",
+  "headerTaglineThree": "designers and developers",
+  "headerTaglineFour": "operating globally.",
   "showCursor": true,
   "showBlog": true,
   "darkMode": true,
@@ -60,26 +60,26 @@
   "services": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Custom Software Development",
+      "description": "We build tailored software solutions to meet your unique business needs."
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "Mobile App Development",
+      "description": "We design and develop intuitive and high-performing mobile applications."
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+      "title": "Web Application Development",
+      "description": "We create scalable and secure web applications for modern businesses."
     },
     {
       "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "UI/UX Design",
+      "description": "We craft user-centric designs for seamless digital experiences."
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "At Syntactech, innovation meets excellence. We are a global software house dedicated to crafting cutting-edge digital solutions that empower businesses to thrive in the modern world. With a relentless commitment to quality and creativity, our team of expert developers, designers, and strategists transforms ideas into impactful technology.\n\nFounded on the principles of innovation and adaptability, Syntactech has been at the forefront of digital evolution, delivering tailor-made software, applications, and platforms that drive results. From startups to enterprises, we partner with our clients to redefine possibilities, leveraging the latest tools and technologies to deliver unmatched value.\n\nWith a presence that spans continents, Syntactech bridges global expertise with local insights to solve complex challenges and create seamless user experiences. Together, let’s build the future—one line of code at a time.",
   "resume": {
     "tagline": "👋  I'm a software engineer, product designer.",
     "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
